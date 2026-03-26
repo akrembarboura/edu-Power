@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+   font-family: "Cairo", sans-serif;
+}
+:root {
+  --dark-blue:hsl(190, 18%, 13%);
+  --sky-blue:rgb(20, 157, 226);
+  --hover-sky-blue:rgb(19, 131, 187);
+  --light-sky-blue:rgb(140, 198, 227);
+  --light-orange:rgb(229, 187, 109);
+  --red:#E74040;
+  --hover-red:#902020;
+  --light-gray:rgb(154, 151, 151);
+  --green:#1ee349;
+  --yellow:#cfd21b;
+  --light-pink:rgb(245, 236, 238);
+  --white-links:#e5e1e1;
+
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  line-height: 1.4;
+}
+/** **/
+/** Header start **/
+#header{
+  background-color: var(--dark-blue);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding:0.3rem 2rem;
+  
+  
+}
+.navbar a {
+  color: var(--white-links);
+  font-size: 14px;
+}
+.navbar .logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #154770;
+}
+.navbar .logo span{
+  font-size: 24px;
+  font-weight: 600;
+  color: #ba332f;
+}
+.navbar ul {
+  display:flex ;
+}
+.navbar ul li a {
+  margin:0 10px;
+  font-weight: 500;
+}
+.navbar ul li a:hover{
+ color: var(--hover-sky-blue);
+ 
+}
+ .navbar .account .btn-join {
+  background-color: var(--sky-blue);
+  padding: 8px 17px;
+  border-radius: 4px;
+  margin-left: 25px;
+ }
+ .navbar .account .btn-join svg{
+  font-size: 12px;
+  margin-left: 5px;
+  vertical-align: middle;
+ }
+  .navbar .account .btn-join:hover{
+  background: var(--hover-sky-blue);
+ }
+ /**header end **/
+ /**Main start  **/*
+ /** Home start **/
+ #home {
+  background-color: var(--dark-blue);
+  padding: 5rem;
+ }
+ #home .home-header  {
+ text-align: center;
+ color:var(--white-links) ;
+ max-width: 450px;
+ margin: auto;
+ 
+ }
+ #home .home-header span{
+  color: var(--red);
+  font-weight: 600;
+ }
+ #home .home-header span:hover{
+  color: var(--hover-red);
+  cursor: pointer;
+ }
+
+ #home .home-header h1 {
+  color: var(--light-pink);
+  font-size: 40px;
+  font-weight: 600;
+  margin: 20px 0;
+ }
+  #home .home-header .btn{
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid var(--hover-red);
+  margin: 0 5px;
+  
+ } 
+ #home .home-header .btn.btn-red{
+  color: var(--white-links);
+  background-color: var(--red)
+ }
+
+  #home .home-header .btn.btn-red:hover{
+  background-color: var(--hover-red);
+
+ }
+  #home .home-header .btn.btn-transparent{
+  color: var(--red);
+  background-color: transparent;
+ }
+ /** Home end **/
+ /**Main end **/
