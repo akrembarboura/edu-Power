@@ -10,6 +10,7 @@ Below is a **professional React architecture used in real projects** (clean, sca
    ---card
    ---card
    ---card
+   ---card
  --courses
    ---section header 
    ---course
