@@ -50,7 +50,7 @@ const Review = () => {
             <Rating value={4.8} precision={0.1} readOnly size="small" />
             <Typography fontWeight={700} color="#1a1a2e">4.8</Typography>
             <Typography variant="body2" color="text.secondary">
-              {/* ✅ reviewsData.length — not reviews.length */}
+              {/* reviewsData.length — not reviews.length */}
               from {reviewsData.length * 600}+ students
             </Typography>
           </Box>
@@ -82,7 +82,7 @@ const Review = () => {
               }}
             >
               <CardContent sx={{ p: 3 }}>
-                {/* ⭐ Star Rating */}
+                {/* Star Rating */}
                 <Rating value={item.rating} readOnly size="small" sx={{ mb: 1.5 }} />
 
                 {/* Review Text */}
